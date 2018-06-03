@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MyLib'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MyLib.'
+  s.summary          = 'This is to create a project related demo of the application.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,15 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Be sure to run `pod lib lint MyLib.podspec' to ensure this is a
+ valid spec before submitting.
                        DESC
 
-  s.homepage         = 'https://github.com/mail2manikanta@gmail.com/MyLib'
+  s.homepage         = 'https://github.com/mail2manikanta/MyLib.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'mail2manikanta@gmail.com' => 'mail2manikanta@gmail.com' }
-  s.source           = { :git => 'https://github.com/mail2manikanta@gmail.com/MyLib.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/mail2manikanta/MyLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
